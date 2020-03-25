@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/message_primary_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_person_placeholder"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/message_primary_image"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:ignore="ObsoleteLayoutParam,RtlCompat">
+
+        <TextView
+            android:id="@+id/important_tag_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:maxLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JoshAssignment</string>
+    <string name="text_search">Search</string>
+    <string name="text_search_hint">Enter your search item</string>
+    <string name="no_data_found">No data found</string>
+    <string name="no_network">Something went wrong or unable to reach server</string>
+
+
+</resources>
